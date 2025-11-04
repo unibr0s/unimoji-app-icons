@@ -20,7 +20,7 @@ Perfect for customizing your iPhone home screen using the Shortcuts **“Open Ap
 ---
 
 ## About UNIMOJI
-**UNIMOJIS** are a character system by [UNIBROS](https://unibros.xyz) — a visual grammar that bridges art, animation, and digital identity.  
+**UNIMOJIS** are a character system by [UNIBROS](https://manifold.xyz/@unibros) — a visual grammar that bridges art, animation, and digital identity.  
 Each UNIMOJI embodies a unique mood — a visual language born from the UNIBROS universe.
 
 ---
