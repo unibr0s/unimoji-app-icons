@@ -47,6 +47,48 @@
       margin-bottom: 2.5rem;
     }
 
+    /* ===== Instructions Box ===== */
+    .instructions {
+      max-width: 600px;
+      margin: 40px auto 60px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 24px 28px;
+      border-radius: 24px;
+      text-align: left;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .instructions h2 {
+      text-align: center;
+      font-size: 1.4rem;
+      color: #fff;
+      margin-top: 0;
+      margin-bottom: 16px;
+      letter-spacing: 0.5px;
+    }
+
+    .instructions ol {
+      padding-left: 22px;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .instructions li {
+      margin-bottom: 10px;
+    }
+
+    .instructions strong {
+      color: #fff;
+    }
+
+    .instructions .tip {
+      margin-top: 20px;
+      color: #aaa;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    /* ===== Icon Grid ===== */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -96,6 +138,24 @@
   <h1>UNIMOJI App Icons</h1>
   <p>Tap or click any icon to open full size, then save to Photos. <br>Designed by <strong>UNIBROS</strong>.</p>
 
+  <!-- ===== iPhone Instructions Section ===== -->
+  <div class="instructions">
+    <h2>How to Use on iPhone (Shortcuts Method)</h2>
+    <ol>
+      <li>Open the <strong>Shortcuts</strong> app.</li>
+      <li>Tap the <strong>+</strong> → <em>Add Action</em>.</li>
+      <li>Search for <strong>Open App</strong> and tap it.</li>
+      <li>Tap the word <strong>App</strong> → choose the app you want this UNIMOJI to open.</li>
+      <li>Tap the <strong>Info (ⓘ)</strong> or <em>Details</em> button → <strong>Add to Home Screen</strong>.</li>
+      <li>Tap the icon thumbnail → <strong>Choose Photo</strong> → pick your saved UNIMOJI image.</li>
+      <li>Rename the shortcut (optional) → tap <strong>Add</strong>.</li>
+    </ol>
+    <p class="tip">
+      💡 <em>Tip:</em> You can hide your original app inside the App Library to keep your home screen clean.
+    </p>
+  </div>
+
+  <!-- ===== Icon Gallery ===== -->
   <div class="grid">
     <a class="card" href="icons/rainbow_unimoji.png" target="_blank">
       <img src="icons/rainbow_unimoji.png" alt="Rainbow Unimoji Icon" />
